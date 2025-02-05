@@ -63,3 +63,4 @@ def distance_all(corbin:list[data.Point]) -> list[float]:
 
 distance_all([data.Point(-6,4), data.Point(2,-2049643), data.Point(4,43)])
 
+
