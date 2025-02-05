@@ -27,7 +27,7 @@ def are_in_positive_quadrant(quads:list[data.Point]) -> list[data.Point]:
     print(pos_points)
     return pos_points
 
-
+are_in_positive_quadrant([data.Point(-6,4), data.Point(2,-2049643), data.Point(4,43)])
 
 
 # Part 4
