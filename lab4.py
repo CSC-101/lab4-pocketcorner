@@ -39,7 +39,6 @@ def distance(point_1:data.Point, point_2:data.Point) -> float:
     print(euclidean)
     return euclidean
 
-distance(data.Point(-6,4), data.Point(2,7))
 
 # Part 5
 def manhattan_distance(point_1:data.Point, point_2:data.Point) -> float:
@@ -49,7 +48,6 @@ def manhattan_distance(point_1:data.Point, point_2:data.Point) -> float:
     print(man)
     return man
 
-# manhattan_distance(data.Point(-6,4), data.Point(2,7))
 
 # Part 6
 def distance_all(corbin:list[data.Point]) -> list[float]:

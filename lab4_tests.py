@@ -79,7 +79,6 @@ class TestCases(unittest.TestCase):
         expected = 2
         self.assertEqual(expected, result)
 
-
     # Part 6
     def test_distance_all_1(self):
         input = [data.Point(-6,4), data.Point(2,-2049643), data.Point(4,43)]
