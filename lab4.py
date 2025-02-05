@@ -29,7 +29,6 @@ def are_in_positive_quadrant(quads:list[data.Point]) -> list[data.Point]:
     print(pos_points)
     return pos_points
 
-# are_in_positive_quadrant([data.Point(-6,4), data.Point(2,-2049643), data.Point(4,43)])
 
 
 # Part 4
@@ -40,7 +39,7 @@ def distance(point_1:data.Point, point_2:data.Point) -> float:
     print(euclidean)
     return euclidean
 
-# distance(data.Point(-6,4), data.Point(2,7))
+distance(data.Point(-6,4), data.Point(2,7))
 
 # Part 5
 def manhattan_distance(point_1:data.Point, point_2:data.Point) -> float:
@@ -60,7 +59,4 @@ def distance_all(corbin:list[data.Point]) -> list[float]:
         origin_distances.append(p)
     print(origin_distances)
     return origin_distances
-
-distance_all([data.Point(-6,4), data.Point(2,-2049643), data.Point(4,43)])
-
 
