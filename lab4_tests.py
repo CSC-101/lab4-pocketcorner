@@ -34,7 +34,7 @@ class TestCases(unittest.TestCase):
         self.assertEqual(expected, result)
 
     # Part 3
-def are_in_positive_quadrant
+
 
     # Part 4
 
